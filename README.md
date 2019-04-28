@@ -1,2 +1,2 @@
 # VocabScraper
-A python script where the user enters the words they want to find the definition of which the script then does automatically for you.
+A python script where the user enters the words they want to find tand the output is the defintions of each word

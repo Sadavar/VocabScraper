@@ -8,14 +8,13 @@ import sys
 urls = {}
 defs = {}
 
-x = 1
+
 
 for word in range(5):
 	urls[x] = "https://www.merriam-webster.com/dictionary/" + sys.argv[x]
-	x = x + 1
 
 
-x = 1
+
 
 for url in urls:
 	page = urlopen(urls.get(x))
@@ -28,7 +27,7 @@ for url in urls:
 
 	defs[sys.argv[x]] = result
 
-	x = x + 1
+
 
 for key,val in defs.items():
     print(key, "=", val)
